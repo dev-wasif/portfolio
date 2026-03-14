@@ -10,6 +10,7 @@
             color: #E2E8F0;              /* soft white */
             line-height: 1.6;
             scroll-behavior: smooth;
+            overflow: hidden;
         }
 
         a {
