@@ -10,7 +10,7 @@
             color: #E2E8F0;              /* soft white */
             line-height: 1.6;
             scroll-behavior: smooth;
-            overflow: hidden;
+            overflow: auto;
         }
 
         a {
@@ -399,6 +399,7 @@
         /* Contact Section */
         .contact {
             background: var(--bg-secondary);
+            
         }
 
         .contact-container {
@@ -552,6 +553,20 @@
             .hero-text h1 {
                 font-size: 2.5rem;
             }
+            .contact{
+                width: 100%;
+            }
         }
+
+      
         
+            
+  @media  (max-width: 387px){
+         .contact {
+          
+            
+         }
+  }
+            
+    
        
